@@ -1,0 +1,121 @@
+html {
+
+  background-image: linear-gradient(#7AA8FD, #A7C7FF);
+
+}
+
+body {
+
+  color: #A7B3C1;
+  font-family: Minecraft, sans-serif;
+  text-align: center;
+
+}
+
+h1 {
+
+  color: #fff;
+  font-size: 40px;
+  margin-top: 50px;
+
+}
+
+.Intro,
+#most-mined,
+#mining-time,
+#ore-name {
+
+  color: #fff;
+
+}
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.item {
+
+  background-color: #FEFCFB;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item p {
+
+  font-size: 30px;
+  margin: 20px;
+
+}
+
+button {
+
+  background-color: #ff5f5f;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 20px;
+  margin: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+}
+
+.sun {
+
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  box-shadow: 0 0 100px #DCEBFD;
+  border-radius: 10%;
+  animation: curve 8s linear infinite;
+}
+
+@keyframes curve {
+
+  0% {
+
+    transform: rotate(0deg)
+
+  }
+
+  25% {
+
+    transform: rotate(90deg)
+
+  }
+
+  50% {
+
+    transform: rotate(180deg)
+
+  }
+
+  75% {
+
+    transform: rotate(270deg)
+
+  }
+
+
+  100% {
+
+    transform: rotate(360deg)
+
+  }
+  
+}
